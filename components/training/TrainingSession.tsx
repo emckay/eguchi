@@ -159,6 +159,13 @@ export const TrainingSession = (props: Props) => {
             {chords.map((c) => (
               <Button
                 bgColor={c.themeColor}
+                sx={{
+                  "@media(hover: none)": {
+                    _hover: {
+                      bgColor: c.themeColor,
+                    },
+                  },
+                }}
                 color={c.textColor}
                 key={c.id}
                 onClick={() => handleNext(c)}

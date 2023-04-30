@@ -9,6 +9,7 @@ import {
   TrainingSession,
   TrialResult,
 } from "@/components/training/TrainingSession";
+import * as Tone from "tone";
 import {
   Alert,
   Container,
@@ -48,7 +49,9 @@ export default function TrainingPage(props: Props) {
             <>
               <Options
                 initialOptions={options || defaultOptions}
-                onSave={(o) => {
+                onSave={async (o) => {
+                  await Tone.start();
+									await Tone.loaded();
                   setState("training");
                   setOptions(o);
                 }}
@@ -78,11 +81,12 @@ export default function TrainingPage(props: Props) {
                   C-major, and the child holds up a red flag.
                 </Text>
                 <Text>
-                  After identifying 9 {'"'}white key{'"'} chords with perfect accuracy,
-                  the child is then introduced to {'"'}black key{'"'} chords and taught
-                  to break down the chords into individual notes. According to
-                  the research, this results in absolute pitch abilities that
-                  needs a small amount of regular practice to maintain.
+                  After identifying 9 {'"'}white key{'"'} chords with perfect
+                  accuracy, the child is then introduced to {'"'}black key{'"'}{" "}
+                  chords and taught to break down the chords into individual
+                  notes. According to the research, this results in absolute
+                  pitch abilities that needs a small amount of regular practice
+                  to maintain.
                 </Text>
                 <Text>
                   I could not find any software built in the last 10+ years that
@@ -99,8 +103,10 @@ export default function TrainingPage(props: Props) {
                 </Text>
                 <Text>
                   Enjoy! Please shoot me a DM on{" "}
-                  <Link href="https://twitter.com/eric__mckay" color="teal">Twitter</Link> if
-                  you have questions or feedback!
+                  <Link href="https://twitter.com/eric__mckay" color="teal">
+                    Twitter
+                  </Link>{" "}
+                  if you have questions or feedback!
                 </Text>
               </Flex>
             </>

@@ -69,10 +69,10 @@ export const TrainingSession = (props: Props) => {
     setAudios({ wrong, right });
   }, [chords]);
 
-  const playTone = (notes: string[]) => {
-    const synth = new Tone.PolySynth().toDestination();
-    synth.triggerAttackRelease(notes, "2n");
-  };
+	const playTone = async (notes: string[]) => {
+		const synth = new Tone.PolySynth().toDestination();
+		synth.triggerAttackRelease(notes, "2n");
+	};
 
   useEffect(() => {
     // play initial tone

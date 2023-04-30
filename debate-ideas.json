@@ -1,0 +1,88 @@
+[
+  {
+    "who": "Euclid",
+    "what": "the angles of a triangle do not always add up to 180 degrees",
+    "image": "euclid"
+  },
+  {
+    "who": "Isaac Newton",
+    "what": "his alchemy studies are not useful",
+    "image": "newton"
+  },
+  {
+    "who": "King Henry VIII",
+    "what": "he shouldn't divorce Anne Boleyn",
+    "image": "henry-viii"
+  },
+  {
+    "who": "Marie Antoinette",
+    "what": "dismissing the concerns of the French public is a bad idea",
+    "image": "marie"
+  },
+  {
+    "who": "Plato",
+    "what": "philosopher-kings are not the ideal form of government",
+    "image": "plato"
+  },
+  {
+    "who": "Cleopatra",
+    "what": "allying with Mark Antony is a mistake",
+    "image": "cleo"
+  },
+  {
+    "who": "Copernicus",
+    "what": "his heliocentric model was not complete",
+    "image": "copernicus"
+  },
+  {
+    "who": "Christopher Columbus",
+    "what": "India is not reachable by sailing west from Europe",
+    "image": "columbus"
+  },
+  { "who": "Galileo", "what": "geocentrism is true", "image": "galileo" },
+  {
+    "who": "Thomas Jefferson",
+    "what": "he should free his slaves",
+    "image": "jefferson"
+  },
+  {
+    "who": "Eliezer Yudkowsky",
+    "what": "superintelligent AI will not destroy humanity",
+    "image": "yudkowsky"
+  },
+  {
+    "who": "Marie Curie",
+    "what": "she shouldn't study radiation",
+    "image": "curie"
+  },
+  {
+    "who": "Woodrow Wilson",
+    "what": "the League of Nations will not prevent another world war",
+    "image": "woodrow"
+  },
+  {
+    "who": "Napoleon Bonaparte",
+    "what": "invading Russia will be a disaster",
+    "image": "napoleon"
+  },
+  {
+    "who": "Karl Marx",
+    "what": "capitalism is the best system for the labor class",
+    "image": "marx"
+  },
+  {
+    "who": "Benito Mussolini",
+    "what": "an alliance with Nazi Germany is a mistake",
+    "image": "mussolini"
+  },
+  {
+    "who": "Richard Dawkins",
+    "what": "young-earth creationism is true",
+    "image": "dawkins"
+  },
+  {
+    "who": "George W. Bush",
+    "what": "the US shouldn't invade Iraq",
+    "image": "bush"
+  }
+]

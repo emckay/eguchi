@@ -40,6 +40,8 @@ export default function TrainingPage(props: Props) {
           content="Learn perfect pitch with the Eguchi method"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-title" content="Eguchi" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>

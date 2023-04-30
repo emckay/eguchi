@@ -40,8 +40,27 @@ export default function TrainingPage(props: Props) {
           content="Learn perfect pitch with the Eguchi method"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta name="apple-mobile-web-app-capable" content="yes" />
-				<meta name="apple-mobile-web-app-title" content="Eguchi" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Eguchi" />
+        <link rel="apple-touch-icon" 
+				
+          href="/icons/ios/512.png"
+				/>
+        <link
+          rel="apple-touch-icon"
+          sizes="152x152"
+          href="/icons/ios/152.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/icons/ios/180.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="167x167"
+          href="/icons/ios/167.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
@@ -53,7 +72,7 @@ export default function TrainingPage(props: Props) {
                 initialOptions={options || defaultOptions}
                 onSave={async (o) => {
                   await Tone.start();
-									await Tone.loaded();
+                  await Tone.loaded();
                   setState("training");
                   setOptions(o);
                 }}

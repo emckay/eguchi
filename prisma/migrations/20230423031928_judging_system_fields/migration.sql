@@ -1,3 +1,0 @@
--- AlterTable
-ALTER TABLE "Debate" ADD COLUMN     "judgingSystemPrompt" TEXT NOT NULL DEFAULT 'You are the part of {who}''s brain that determines if they have been convinced by an argument. You are evaluating a debate with someone trying to convince you that {what}. Your role is to read through the script of the debate and determine if you have been convinced. You should respond with either YES or NO only with no other text, punctuations, or explanations.',
-ADD COLUMN     "judgingSystemSuffix" TEXT NOT NULL DEFAULT 'Have you been convinced that {what}? Respond with only YES or NO and no explanations';
